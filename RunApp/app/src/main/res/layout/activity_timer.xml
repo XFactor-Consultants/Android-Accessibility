@@ -39,7 +39,7 @@
                 android:paddingLeft="50sp"
                 android:paddingTop="50sp"
                 android:paddingRight="50sp"
-                android:text="Running Timer"
+                android:text="@string/timertitle"
                 android:textAlignment="center"
                 android:textColor="#BFBFBF"
                 android:textSize="50sp" />
@@ -49,7 +49,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingTop="20sp"
-                android:text="00:00:00"
+                android:text="@string/defaulttime"
                 android:textAlignment="center"
                 android:textColor="#BFBFBF"
                 android:textSize="60sp" />
@@ -58,7 +58,7 @@
                 android:id="@+id/textView5"
                 android:layout_width="match_parent"
                 android:layout_height="59dp"
-                android:text="min          sec          deci"
+                android:text="@string/timerlabel"
                 android:textAlignment="center"
                 android:textColor="#BFBFBF"
                 android:textSize="20sp" />
@@ -73,6 +73,7 @@
                     android:layout_width="221dp"
                     android:layout_height="101dp"
                     android:background="@android:color/transparent"
+                    android:contentDescription="@string/starttimer"
                     android:onClick="startTimer"
                     android:scaleType="fitCenter"
                     app:srcCompat="@drawable/ic_start_button" />
@@ -82,6 +83,7 @@
                     android:layout_width="192dp"
                     android:layout_height="101dp"
                     android:background="@android:color/transparent"
+                    android:contentDescription="@string/reset"
                     android:onClick="reset"
                     android:scaleType="fitCenter"
                     app:srcCompat="@drawable/ic_reset" />
@@ -98,7 +100,7 @@
                     android:layout_width="106dp"
                     android:layout_height="61dp"
                     android:layout_weight="1"
-                    android:text="Start"
+                    android:text="@string/starttimer"
                     android:textAlignment="center"
                     android:textColor="#BFBFBF"
                     android:textSize="30sp" />
@@ -108,7 +110,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="61dp"
                     android:layout_weight="1"
-                    android:text="Reset"
+                    android:text="@string/reset"
                     android:textAlignment="center"
                     android:textColor="#BFBFBF"
                     android:textSize="30sp" />
@@ -127,6 +129,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:background="@android:color/transparent"
+                    android:contentDescription="@string/home"
                     android:onClick="goHome"
                     android:paddingTop="10sp"
                     android:paddingBottom="10sp"
@@ -139,6 +142,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:background="@android:color/transparent"
+                    android:contentDescription="@string/timer"
                     android:paddingTop="10sp"
                     android:paddingBottom="10sp"
                     android:scaleType="fitCenter"
