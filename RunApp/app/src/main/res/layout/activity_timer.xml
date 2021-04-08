@@ -124,7 +124,7 @@
                 android:paddingRight="70sp">
 
                 <ImageButton
-                    android:id="@+id/imageButton4"
+                    android:id="@+id/home_button"
                     android:layout_width="112dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
