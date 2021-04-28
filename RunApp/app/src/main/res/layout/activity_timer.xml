@@ -27,7 +27,7 @@
             android:layout_width="match_parent"
             android:layout_height="595dp"
             android:background="@drawable/background2"
-            android:backgroundTint="#8A000000"
+            android:backgroundTint="#BE000000"
             android:backgroundTintMode="src_atop"
             android:orientation="vertical">
 
